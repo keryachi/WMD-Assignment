@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BB Motors – Luxury Vehicles</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Roboto', sans-serif; }
+    h1, h2, h3, .nav-title { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <header class="fixed top-0 w-full z-50 bg-gray-900 bg-opacity-90 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+
+      <div class="text-2xl font-bold text-white">BB Motors</div>
+
+      <nav class="hidden md:flex space-x-6">
+        <a href="homepage.html" class="hover:text-red-500">Home</a>
+        <a href="brand-new-vehicles.html" class="hover:text-red-500">Brand New Vehicles</a>
+        <a href="pre-owned.html" class="hover:text-red-500">Pre-Owned Vehicles</a>
+        <a href="contact-us.html" class="hover:text-red-500">Contact Us</a>
+      </nav>
+
+      <a href="approved.html" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded hidden md:block">Get Pre-Approved</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-32 pb-20 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1605559424843-0bdb91fe56f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');">
+    <div class="bg-black bg-opacity-60 h-full w-full">
+      <div class="max-w-4xl mx-auto text-center px-6">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white">Experience Luxury. Own Confidence.</h1>
+        <p class="text-lg mb-8 text-gray-300">Premium selection of new & pre-owned vehicles, ready for your next journey.</p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a href="inventory.html" class="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded">Browse Inventory</a>
+          <a href="testdrive.html" class="border border-white text-white px-6 py-3 rounded hover:bg-white hover:text-gray-900">Book a Test Drive</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-gray-950">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-10 text-center">Promotions Of The Month</h2>
+
+      <!-- Grid of cars -->
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Vehicle Card -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-red-500 transition">
+          <img src="benz.jpg" alt="2023 Mercedes-Benz S-Class" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">2023 Mercedes-Benz S-Class</h3>
+            <p class="text-gray-300 mb-4">Luxury, comfort, and performance in perfect harmony.</p>
+            <a href="benzdetails.html" class="text-red-500 hover:underline">View Details →</a>
+          </div>
+        </div>
+
+        <!-- More vehicle cards (repeat or loop if using a backend) -->
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-red-500 transition">
+          <img src="bmw.jpg" alt="2022 BMW X7 M50i" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">2022 BMW X7 M50i</h3>
+            <p class="text-gray-300 mb-4">A performance SUV with commanding luxury appeal.</p>
+            <a href="bmwdetails.html" class="text-red-500 hover:underline">View Details →</a>
+          </div>
+        </div>
+
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-red-500 transition">
+          <img src="vw.jpg" alt="2022 Volkswagen Golf GTI MK8" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">2022 Volkswagen Golf GTI MK8</h3>
+            <p class="text-gray-300 mb-4">Bold styling meets track-ready performance.</p>
+            <a href="mk8details.html" class="text-red-500 hover:underline">View Details →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-10 mt-10">
+    <div class="max-w-7xl mx-auto px-6 text-center text-gray-400">
+      <p>&copy; 2025 BB Motors. All rights reserved.</p>
+      <p class="mt-2">Follow us on 
+        <a href="#" class="text-white hover:underline">Instagram</a>, 
+        <a href="#" class="text-white hover:underline">YouTube</a>, 
+        <a href="#" class="text-white hover:underline">Facebook</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>

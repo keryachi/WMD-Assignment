@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get Approved | BB Motors – Luxury Vehicles</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Roboto', sans-serif; }
+    h1, h2, h3, .nav-title { font-family: 'Poppins', sans-serif; }
+    .form-input {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+    .form-input:focus {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <header class="fixed top-0 w-full z-50 bg-gray-900 bg-opacity-90 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <div class="text-2xl font-bold text-white">BB Motors</div>
+      <nav class="hidden md:flex space-x-6">
+        <a href="homepage.html" class="hover:text-red-500">Home</a>
+        <a href="brand-new-vehicles.html" class="hover:text-red-500">Brand New Vehicles</a>
+        <a href="pre-owned.html" class="hover:text-red-500">Pre-Owned Vehicles</a>
+        <a href="financing.html" class="hover:text-red-500">Financing</a>
+        <a href="contact-us.html" class="hover:text-red-500">Contact Us</a>
+      </nav>
+      <a href="#" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded hidden md:block">Get Pre-Approved</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-32 pb-20 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1605559424843-0bdb91fe56f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');">
+    <div class="bg-black bg-opacity-60 h-full w-full">
+      <div class="max-w-4xl mx-auto text-center px-6">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white">Fast & Easy Financing</h1>
+        <p class="text-lg mb-8 text-gray-300">Get pre-approved in minutes and drive your dream car today.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Approval Process Section -->
+  <section class="py-16 bg-gray-950">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-10 text-center">Our Simple Approval Process</h2>
+      
+      <div class="grid md:grid-cols-3 gap-8 mb-16">
+        <div class="text-center">
+          <div class="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">1</div>
+          <h3 class="text-xl font-bold mb-2">Complete Your Application</h3>
+          <p class="text-gray-300">Fill out our secure online form (takes less than 5 minutes).</p>
+        </div>
+        
+        <div class="text-center">
+          <div class="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">2</div>
+          <h3 class="text-xl font-bold mb-2">Instant Decision</h3>
+          <p class="text-gray-300">Get an instant credit decision with no impact to your score.</p>
+        </div>
+        
+        <div class="text-center">
+          <div class="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">3</div>
+          <h3 class="text-xl font-bold mb-2">Drive Home Today</h3>
+          <p class="text-gray-300">Visit our dealership to finalize and drive away in your new car.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Application Form Section -->
+  <section class="py-16 bg-gray-900">
+    <div class="max-w-3xl mx-auto px-6">
+      <div class="bg-gray-800 rounded-lg shadow-xl p-8">
+        <h2 class="text-2xl font-bold mb-6">Pre-Approval Application</h2>
+        <p class="text-gray-300 mb-8">Fill out the form below to begin your pre-approval process. All information is secure and encrypted.</p>
+        
+        <form class="space-y-6">
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <label for="first-name" class="block mb-2">First Name*</label>
+              <input type="text" id="first-name" class="w-full px-4 py-3 rounded form-input" required>
+            </div>
+            <div>
+              <label for="last-name" class="block mb-2">Last Name*</label>
+              <input type="text" id="last-name" class="w-full px-4 py-3 rounded form-input" required>
+            </div>
+          </div>
+          
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <label for="email" class="block mb-2">Email*</label>
+              <input type="email" id="email" class="w-full px-4 py-3 rounded form-input" required>
+            </div>
+            <div>
+              <label for="phone" class="block mb-2">Phone*</label>
+              <input type="tel" id="phone" class="w-full px-4 py-3 rounded form-input" required>
+            </div>
+          </div>
+          
+          <div>
+            <label for="income" class="block mb-2">Annual Income*</label>
+            <select id="income" class="w-full px-4 py-3 rounded form-input" required>
+              <option value="">Select Range</option>
+              <option value="25-50">$25,000 - $50,000</option>
+              <option value="50-75">$50,001 - $75,000</option>
+              <option value="75-100">$75,001 - $100,000</option>
+              <option value="100-150">$100,001 - $150,000</option>
+              <option value="150+">$150,000+</option>
+            </select>
+          </div>
+          
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <label for="employment" class="block mb-2">Employment Status*</label>
+              <select id="employment" class="w-full px-4 py-3 rounded form-input" required>
+                <option value="">Select Status</option>
+                <option value="employed">Employed</option>
+                <option value="self-employed">Self-Employed</option>
+                <option value="retired">Retired</option>
+                <option value="student">Student</option>
+                <option value="unemployed">Unemployed</option>
+              </select>
+            </div>
+            <div>
+              <label for="credit" class="block mb-2">Credit Rating*</label>
+              <select id="credit" class="w-full px-4 py-3 rounded form-input" required>
+                <option value="">Select Rating</option>
+                <option value="excellent">Excellent (720+)</option>
+                <option value="good">Good (680-719)</option>
+                <option value="fair">Fair (640-679)</option>
+                <option value="poor">Poor (639 or below)</option>
+                <option value="unknown">I don't know</option>
+              </select>
+            </div>
+          </div>
+          
+          <div>
+            <label for="vehicle" class="block mb-2">Vehicle of Interest (Optional)</label>
+            <input type="text" id="vehicle" class="w-full px-4 py-3 rounded form-input" placeholder="Make, Model, Year">
+          </div>
+          
+          <div class="pt-4">
+            <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-4 rounded font-bold text-lg">
+              Submit Application
+            </button>
+          </div>
+          
+          <p class="text-gray-400 text-sm">
+            By submitting this application, you authorize BB Motors and its lending partners to obtain your credit report and verify the information provided. 
+            This won't affect your credit score.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="py-16 bg-gray-950">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-10 text-center">Why Get Pre-Approved?</h2>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="flex items-start">
+          <div class="bg-red-600 p-3 rounded-full mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-2">Know Your Budget</h3>
+            <p class="text-gray-300">Shop with confidence knowing exactly what you can afford before visiting the dealership.</p>
+          </div>
+        </div>
+        
+        <div class="flex items-start">
+          <div class="bg-red-600 p-3 rounded-full mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-2">Better Negotiating Power</h3>
+            <p class="text-gray-300">Having pre-approval gives you leverage when negotiating your vehicle purchase.</p>
+          </div>
+        </div>
+        
+        <div class="flex items-start">
+          <div class="bg-red-600 p-3 rounded-full mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-2">Save Time at the Dealership</h3>
+            <p class="text-gray-300">Skip the finance office paperwork and get straight to driving your new car.</p>
+          </div>
+        </div>
+        
+        <div class="flex items-start">
+          <div class="bg-red-600 p-3 rounded-full mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-2">Competitive Rates</h3>
+            <p class="text-gray-300">We work with multiple lenders to secure the best possible rates for your situation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 bg-gradient-to-r from-red-700 to-red-900">
+    <div class="max-w-4xl mx-auto text-center px-6">
+      <h2 class="text-3xl font-bold mb-6">Ready to Drive Your Dream Car?</h2>
+      <p class="text-xl mb-8">Get pre-approved now and we'll have your approval ready when you visit our showroom.</p>
+      <a href="#application" class="bg-white text-red-700 hover:bg-gray-100 px-8 py-4 rounded font-bold text-lg inline-block">
+        Start Application
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-10">
+    <div class="max-w-7xl mx-auto px-6 text-center text-gray-400">
+      <p>&copy; 2025 BB Motors. All rights reserved.</p>
+      <p class="mt-2">Follow us on 
+        <a href="#" class="text-white hover:underline">Instagram</a>, 
+        <a href="#" class="text-white hover:underline">YouTube</a>, 
+        <a href="#" class="text-white hover:underline">Facebook</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
